@@ -1,0 +1,69 @@
+.app {
+  background-color: lightgray;
+}
+
+.image {
+  height: 150px;
+  float: center;
+  margin: auto;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+.bulldog {
+  height: 275px;
+  float: center;
+  margin: auto;
+  margin-bottom: 25px;
+  clip: rect(0px, 100px, 275px, 0px);
+}
+
+.text {
+  text-align: left;
+  font-family: verdana;
+  font-size: 110%;
+}
+
+.face-button {
+  height: 20px;
+  padding: 5px, 5px;
+  margin: 20px;
+}
+
+.face-info {
+  height: 38px;
+  padding: 5px, 5px;
+  margin: 0px 10px 0px 20px;
+}
+
+.info {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  float: right;
+  margin: 5px;
+}
+
+.upload {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  bottom: 1px;
+  left: 1px;
+  float: left;
+  margin: 5px;
+}
+
+.desc {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+  float: right;
+  margin: 5px;
+}
